@@ -12,6 +12,69 @@
             <img src="./resources/fbc_logo_alt.webp" alt="">
         </div>
     </div>
-    <div class="form-wrapper"></div>
+
+    <div class="form-wrapper">
+        <form action="">
+            <div class="form-instruction">
+                <p>
+                    Welcome to the Federal Bureau of Conrol's Field Agent Resources Portal. Please register
+                    for access using your employee ID and FBC email address on the submission form below.
+                </p>
+                <p>
+                    <strong>
+                        WARNING: UNDER NO CIRCUMSTANCES SHOULD YOU ACCESS THIS DATABASE WITHIN THE
+                        CONFINES OF THE OLDEST HOUSE.
+                    </strong>
+                </p>
+            </div>
+
+            <div class="form-controls">
+                <fieldset>
+                    <legend>
+                        <h2>Register for portal access</h2>
+                    </legend>
+
+                    <ul>
+                        <li>
+                            <input type="text" id="first-name" name="firstName" required>
+                            <label for="first-name">First name</label>
+                        </li>
+                        <li>
+                            <input type="text" id="last-name" name="lastName" required>
+                            <label for="last-name">Last name</label>
+                        </li>
+                        <li>
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </li>
+                        <li>
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone</label>
+                        </li>
+                        <li>
+                            <input type="text" id="emp-id" name="emp_id" required>
+                            <label for="emp-id">Employee ID</label>
+                        </li>
+                        <li>
+                            <input type="password" id="pwd" name="pwd" required>
+                            <label for="pwd">Password</label>
+                        </li>
+                        <li>
+                            <input type="password" id="pwd-cnfrm" required>
+                            <label for="pwd-cnfrm">Confirm password</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div class="form-footer">
+                <button type="submit">Sign-up</button>
+                <p>
+                    Already have an account? 
+                    <a href="">Log in</a>
+                </p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

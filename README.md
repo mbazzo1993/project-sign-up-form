@@ -29,14 +29,14 @@ This project encompasses my work on a project included within The Odin Project's
 
 
 ### __Plan of action__
-1. [ ] Create the HTML scaffold
+1. [x] Create the HTML scaffold
     * [x] Create image (left) section and form (right) section
     * [x] Create placeholder for logo overlay and background
-    * [ ] Create placeholder for form instructions
-    * [ ] Create placeholder for the form itself
-    * [ ] Create form structure and include all form inputs
-    * [ ] Create the button for form submission
-    * [ ] Create placeholder for sign in text
+    * [x] Create placeholder for form instructions
+    * [x] Create placeholder for the form itself
+    * [x] Create form structure and include all form inputs
+    * [x] Create the button for form submission
+    * [x] Create placeholder for sign in text
 1. [ ] Add form validations
     * [ ] First name validation : required
     * [ ] Last name validation : required
@@ -48,9 +48,9 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] place, size and align the logo as desired
     * [x] position the logo overlay and add the appropriate transparency and background styling
 1. [ ] Complete form styling for right side
-    * [ ] Style instructional text portion (background color, font styling, padding, etc.)
+    * [x] Style instructional text portion (background color, font styling, padding, etc.)
     * [ ] Style form elements:
-      * [ ] Section header / legend styling
+      * [x] Section header / legend styling
       * [ ] Label positioning relative to fields
       * [ ] Unfocused styling
       * [ ] Focused styling
