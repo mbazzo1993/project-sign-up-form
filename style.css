@@ -1,12 +1,10 @@
-/* * {
-    border: 1px solid red;
-} */
-
 :root {
     --image-section-width: 30%;
     --form-controls-height: 50%;
     --form-ctrl-bg-dark: black;
     --form-bg-light: white;
+    --form-valid-color: rgb(87,191,161);
+    --form-invalid-color: red;
 }
 
 body {
@@ -164,17 +162,17 @@ input:focus {
 }
 
 input:user-invalid {
-    border-color: red;
-    color: red;
+    border-color: var(--form-invalid-color);
+    color: var(--form-invalid-color);
 }
 
 input:user-valid {
-    border-color: rgb(87,191,161);
-    color: rgb(87,191,161);
+    border-color: var(--form-valid-color);
+    color: var(--form-valid-color);
 }
 
 span {
-    color: red;
+    color: var(--form-invalid-color);
     font-size: 1em;
     font-weight: bold;
 }
@@ -186,6 +184,6 @@ input[name="pwd"] + p {
 
 .pwd-mismatch::after {
     content: 'Passwords do not match';
-    color: red;
+    color: var(--form-invalid-color);
     font-size: 0.8em;
 }
