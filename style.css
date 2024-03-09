@@ -171,3 +171,14 @@ span {
     font-size: 1em;
     font-weight: bold;
 }
+
+input[name="pwd"] + p {
+    height: 1em;
+    margin-top: 0.1em;
+}
+
+.pwd-mismatch::after {
+    content: 'Passwords do not match';
+    color: red;
+    font-size: 0.8em;
+}

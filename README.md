@@ -38,11 +38,18 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] Create the button for form submission
     * [x] Create placeholder for sign in text
 1. [ ] Add form validations
-    * [ ] First name validation : required
-    * [ ] Last name validation : required
-    * [ ] Email validation : required
-    * [ ] Phone number validation : optional, pattern matching requirements
+    * [x] First name validation : required
+    * [x] Last name validation : required
+    * [x] Email validation : required
+      * [x] Email validation : required formatting (something@fbc.gov) (pattern matching)
+    * [x] Phone number validation : optional, pattern matching requirements
     * [ ] Password & Confirm Password: complexity requirements (use pattern matching), minimum length requirements, and passwords must match
+      * [x] Complexity reqs: minimum length of 8 characters
+      * [ ] Complexity reqs: at least one uppercase character
+      * [ ] Complexity reqs: at least one lowercase character
+      * [ ] Complexity reqs: at least one number
+      * [ ] Complexity reqs: at least one special character
+      * [ ] Passwords must match
 1. [x] Complete styling for (left) image section
     * [x] insert background image and position it appropriately
     * [x] place, size and align the logo as desired
@@ -51,11 +58,11 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] Style instructional text portion (background color, font styling, padding, etc.)
     * [ ] Style form elements:
       * [x] Section header / legend styling
-      * [ ] Label positioning relative to fields
-      * [ ] Unfocused styling
-      * [ ] Focused styling
-      * [ ] Field layout
-      * [ ] Field invalid input styling
+      * [x] Label positioning relative to fields
+      * [x] Unfocused styling
+      * [x] Focused styling
+      * [x] Field layout
+      * [x] Field invalid input styling
       * [ ] Passwords do not match styling
     * [ ] Button styling: hover, clicked, neutral
     * [ ] Alredy have an account, sign-in text styling
