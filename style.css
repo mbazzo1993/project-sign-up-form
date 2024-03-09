@@ -134,19 +134,40 @@ li {
 
 label {
     margin-bottom: 0.5em;
-    color: var(--form-bg-light);
+    color: rgb(171, 171, 171);;
+    letter-spacing: 0.1em;
 }
 
 input {
     height: 2em;
     width: 75%;
     font-size: 16px;
+    padding-left: 0.5em;
 
-    border-color:var(--form-bg-light);
+    border-color: rgb(100, 100, 100);
     border-style: solid;
     border-width: 1px;
-    border-radius: 1px;
+    border-radius: 2px;
 
     background-color: var(--form-ctrl-bg-dark);
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+input:focus {
+    border-color: var(--form-bg-light);
     color: var(--form-bg-light);
+
+    outline: none;
+}
+
+input:user-invalid {
+    border-color: red;
+    color: red;
+}
+
+span {
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
 }
