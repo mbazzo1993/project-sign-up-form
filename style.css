@@ -36,6 +36,8 @@ body {
 
 .form-wrapper {
     width: calc(100% - var(--image-section-width));
+
+    box-shadow: -3px 0px 20px grey;
 }
 
 form {
