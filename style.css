@@ -166,6 +166,11 @@ input:user-invalid {
     color: red;
 }
 
+input:user-valid {
+    border-color: rgb(87,191,161);
+    color: rgb(87,191,161);
+}
+
 span {
     color: red;
     font-size: 1em;
