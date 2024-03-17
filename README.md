@@ -37,7 +37,7 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] Create form structure and include all form inputs
     * [x] Create the button for form submission
     * [x] Create placeholder for sign in text
-1. [ ] Add form validations
+1. [x] Add form validations
     * [x] First name validation : required
     * [x] Last name validation : required
     * [x] Email validation : required
@@ -54,7 +54,7 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] insert background image and position it appropriately
     * [x] place, size and align the logo as desired
     * [x] position the logo overlay and add the appropriate transparency and background styling
-1. [ ] Complete form styling for right side
+1. [x] Complete form styling for right side
     * [x] Style instructional text portion (background color, font styling, padding, etc.)
     * [x] Style form elements:
       * [x] Section header / legend styling
@@ -64,5 +64,5 @@ This project encompasses my work on a project included within The Odin Project's
       * [x] Field layout
       * [x] Field invalid input styling
       * [x] Passwords do not match styling
-    * [ ] Button styling: hover, clicked, neutral
-    * [ ] Alredy have an account, sign-in text styling
+    * [x] Button styling: hover, clicked, neutral
+    * [x] Alredy have an account, sign-in text styling

@@ -95,7 +95,7 @@ form {
 }
 
 fieldset > legend {
-    background-color: white;
+    background-color: var(--form-bg-light);
     color: var(--form-ctrl-bg-dark);
     padding: 0.2em 0.4em 0.2em 0.4em;
     margin: 0;
@@ -181,4 +181,39 @@ input[type="password"] + p {
     height: 1em;
     margin-top: 0.1em;
     font-size: 0.8em;
+}
+
+button {
+    font-size: larger;
+    padding: 0.7em 1em;
+    border: 2px solid var(--form-bg-light);
+    background-color: var(--form-ctrl-bg-dark);
+    color: var(--form-bg-light);
+    font-weight: bold;
+}
+
+button:hover {
+    color: var(--form-ctrl-bg-dark);
+    background-color: var(--form-bg-light);
+    border: 2px solid var(--form-ctrl-bg-dark);
+}
+
+.form-footer > p {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    background-color: var(--form-ctrl-bg-dark);
+    color: var(--form-bg-light);
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--form-ctrl-bg-dark);
+    background-color: var(--form-bg-light);
+    padding: 0.1em;
+    font-weight: bold;
 }

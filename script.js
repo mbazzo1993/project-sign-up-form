@@ -19,6 +19,10 @@ elemCnfrmPwd.addEventListener("input", pwdCheckControl);
  * FUNCTIONS
  */
 
+/**
+ * Control for password validation
+ * @param {*} event 
+ */
 function pwdCheckControl(event) {
     let elem = event.target;
     let isValid = true;
@@ -42,7 +46,7 @@ function pwdCheckControl(event) {
         errorString = `Error: passwords must match.`;
     }
 
-    // 3. Manage styling and input state
+    // 4. Manage styling and input state
     if (isValid) {
         elem.setCustomValidity('');
     } else {
