@@ -43,26 +43,26 @@ This project encompasses my work on a project included within The Odin Project's
     * [x] Email validation : required
       * [x] Email validation : required formatting (something@fbc.gov) (pattern matching)
     * [x] Phone number validation : optional, pattern matching requirements
-    * [ ] Password & Confirm Password: complexity requirements (use pattern matching), minimum length requirements, and passwords must match
+    * [x] Password & Confirm Password: complexity requirements (use pattern matching), minimum length requirements, and passwords must match
       * [x] Complexity reqs: minimum length of 8 characters
-      * [ ] Complexity reqs: at least one uppercase character
-      * [ ] Complexity reqs: at least one lowercase character
-      * [ ] Complexity reqs: at least one number
-      * [ ] Complexity reqs: at least one special character
-      * [ ] Passwords must match
+      * [x] Complexity reqs: at least one uppercase character
+      * [x] Complexity reqs: at least one lowercase character
+      * [x] Complexity reqs: at least one number
+      * [x] Complexity reqs: at least one special character
+      * [x] Passwords must match
 1. [x] Complete styling for (left) image section
     * [x] insert background image and position it appropriately
     * [x] place, size and align the logo as desired
     * [x] position the logo overlay and add the appropriate transparency and background styling
 1. [ ] Complete form styling for right side
     * [x] Style instructional text portion (background color, font styling, padding, etc.)
-    * [ ] Style form elements:
+    * [x] Style form elements:
       * [x] Section header / legend styling
       * [x] Label positioning relative to fields
       * [x] Unfocused styling
       * [x] Focused styling
       * [x] Field layout
       * [x] Field invalid input styling
-      * [ ] Passwords do not match styling
+      * [x] Passwords do not match styling
     * [ ] Button styling: hover, clicked, neutral
     * [ ] Alredy have an account, sign-in text styling
